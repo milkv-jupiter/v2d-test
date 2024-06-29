@@ -24,12 +24,12 @@
 #include "v2d_type.h"
 #include "dmabufheap/BufferAllocatorWrapper.h"
 
-char *pFbcCase0Layer0H = "320_240_yuv_s0_header.fbc";
-char *pFbcCase0Layer0B = "320_240_yuv_s0_payload.fbc";
-char *pFbcCase0Header  = "adv_320_240_rgb888_s1_header.fbc";
-char *pFbcCase0Body    = "adv_320_240_rgb888_s1_payload.fbc";
-char *pFbcCase0Raw     = "adv_320_240_rgb888.raw";
-char *pRawData         = "320_240_bt601_n.yuv";
+char *pFbcCase0Layer0H = "/usr/share/v2d/320_240_yuv_s0_header.fbc";
+char *pFbcCase0Layer0B = "/usr/share/v2d/320_240_yuv_s0_payload.fbc";
+char *pFbcCase0Header  = "/usr/share/v2d/adv_320_240_rgb888_s1_header.fbc";
+char *pFbcCase0Body    = "/usr/share/v2d/adv_320_240_rgb888_s1_payload.fbc";
+char *pFbcCase0Raw     = "/usr/share/v2d/adv_320_240_rgb888.raw";
+char *pRawData         = "/usr/share/v2d/320_240_bt601_n.yuv";
 char *sysfile          = "/sys/bus/platform/devices/c0100000.v2d/clkrate";
 
 struct v2d_alloc_dma_buf {
